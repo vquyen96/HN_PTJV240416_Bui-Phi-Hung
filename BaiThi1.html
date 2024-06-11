@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-employee">
+        <h2>Add Employee</h2>
+        <div class="input-box">
+            <p>Employee Code</p>
+            <input id="code" type="text">
+            <p>Employee Name</p>
+            <input id="name" type="text">
+            <p>Email</p>
+            <input id="email" type="text">
+            <button id="submit_button" onclick="addEmployee()">
+                Add Employee
+            </button>
+        </div>
+    </div>
+    
+    <div class="employee-table">
+        <table id="employee-list" border="1">
+            <h2>Employee List</h2>
+            <tr>
+                <th>STT</th>
+                <th>Employee Code</th>
+                <th>Employee Name</th>
+                <th>Email</th>
+                <th>Option</th>
+            </tr>
+            <tbody id="list-body">
+                <tr>
+                    <th>1</th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>
+                        <button>Sửa</button>
+                        <button>Xoá</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="./style.js"></script>
+</body>
+</html>

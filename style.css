@@ -1,0 +1,90 @@
+body {
+    display: flex;
+}
+
+.form-employee {
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px #999;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.form-employee h2 {
+    text-align: center;
+}
+
+.input-box {
+    display: block;
+}
+
+.input-box p {
+    margin: 0 0 10px;
+}
+
+.input-box input {
+    width: 98%;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.input-box button {
+    width: 100%;
+    padding: 12px;
+    background: #4663f1;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+.employee-table {
+    flex: 1;
+}
+
+.employee-table h2 {
+    text-align: center;
+}
+
+.employee-table table {
+    width: 100%;
+}
+
+button.btn-edit {
+    padding: 5px 15px;
+    margin-right: 5px;
+    background: #ffa225;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+}
+
+button.btn-del {
+    padding: 5px 15px;
+    margin-right: 5px;
+    background: #dc3700;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+}
+
+table {
+    border-collapse: collapse;
+}
+table td, table th {
+    border: 1px solid black;
+    padding: 5px
+}
+table tr:first-child th {
+    border-top: 0;
+}
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
+}
